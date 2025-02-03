@@ -27,43 +27,43 @@ A real-time system for detecting and counting vehicles using **YOLO** and **Open
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/your-username/vehicle-detection-counting.git
-   cd vehicle-detection-counting
-   ```
+    ```bash
+    git clone https://github.com/Incredible-T/vehicle-detection-and-counting.git
+    cd vehicle-detection-and-counting
+    ```
 
 2. **Create a Virtual Environment:**
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
 
 3. **Install Dependencies:**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Usage
 
 1. **Prepare Your Video Source:**
 
-   - For a video file, ensure it's in the project directory or provide the full path.
-   - For a live camera feed, ensure the camera is connected and accessible.
+    - For a video file, ensure it's in the project directory or provide the full path.
+    - For a live camera feed, ensure the camera is connected and accessible.
 
 2. **Run the Detection Script:**
 
-   ```bash
-   python detect_and_count.py --source path_to_video.mp4
-   ```
+    ```bash
+    python detect_and_count.py --source path_to_video.mp4
+    ```
 
-   Replace `path_to_video.mp4` with your video file path or use `0` for the default camera.
+    Replace `path_to_video.mp4` with your video file path or use `0` for the default camera.
 
 3. **View Results:**
 
-   - The script will display the video with detected vehicles and count annotations.
-   - Processed videos can be saved by specifying the `--output` parameter.
+    - The script will display the video with detected vehicles and count annotations.
+    - Processed videos can be saved by specifying the `--output` parameter.
 
 ### Configuration
 
