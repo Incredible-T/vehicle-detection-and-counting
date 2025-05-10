@@ -1,28 +1,7 @@
-train: /home/besu/PycharmProjects/AI Projects/vehicle-detection-and-counting/data/train/images
-val: /home/besu/PycharmProjects/AI Projects/vehicle-detection-and-counting/data/valid/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: 21
-names:
-  [
-    "ambulance",
-    "army vehicle",
-    "auto rickshaw",
-    "bicycle",
-    "bus",
-    "car",
-    "garbagevan",
-    "human hauler",
-    "minibus",
-    "minivan",
-    "motorbike",
-    "pickup",
-    "policecar",
-    "rickshaw",
-    "scooter",
-    "suv",
-    "taxi",
-    "three wheelers -CNG-",
-    "truck",
-    "van",
-    "wheelbarrow",
-  ]
+nc: 9
+names: ['auto', 'bus', 'car', 'motorbike', 'pickup', 'suv', 'truck', 'van', 'tractor']
+
